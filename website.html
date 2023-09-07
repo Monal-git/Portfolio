@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Monal's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Monal</span>.
+                <div>I am a Programmer and</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="CV.pdf">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Monal-git">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have learned so far</span>
+            <h1>Interest and Technical Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="logo1.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Front-end Programming-Languages
+                    </div>
+                    <div class="vertical-desc">
+                        HTML, CSS and Javascript.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="logo2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Connectivity with Database
+                        and APIs
+                    </div>
+                    <div class="vertical-desc">
+                        MySQL, MongoDB and APIs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="logo3.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Programming-Languages
+                    </div>
+                    <div class="vertical-desc">
+                        Python, C(Moderate level) and C++(Moderate level).
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="logo4.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Data Science
+                    </div>
+                    <div class="vertical-desc">
+                        Statistics, Machine Learning, Deep Learning,Computer Vision and other Algorithms.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <div>Gmail:-singhmonal2002@gmail.com</div>
+            </div>
+            <div class="footer-first">
+                <a href="/">Instagram</a>
+            </div>
+            <div class="footer-first">
+              <a href="/">Facebook</a>
+            </div>
+            <div class="footer-first">
+                <a href="/">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Monalsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front Web Developer.', 'Data Scientist.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
